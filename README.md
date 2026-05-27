@@ -28,6 +28,13 @@ Main: Arquivo principal do sistema. É usado para executar o programa e demonstr
 
 • Instruções de execução.
 
+Certificar que todos os arquivos.py estão na pasta
+
+Abra o terminal na pasta do projeto (Main.py)
+
+Execute: phyton Main.py
+
+A saída mostrará: Criação dos eventos, Adição de convidados, fornecedores e tarefas, Ordenação das tarefas com diferentes estratégias, Saída formatada e organizada.
 
 
 • Diagrama de classes (imagem) — gerado pelo próprio aluno. 
