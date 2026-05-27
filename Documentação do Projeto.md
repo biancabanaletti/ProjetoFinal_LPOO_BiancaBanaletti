@@ -4,14 +4,15 @@ Nome: Bianca Banaletti
 
 Tema: Sistema de Organização de Eventos e Festas
 
-Descrição e Delimitação do Escopo
+1. Descrição e Delimitação do Escopo
+
 Sistema que gerencia diferentes tipos de eventos e festas: festa infantil, evento corporativo e casamento.
 
 Utilizado para organização e controle, como a parte de decoração e fornecedores.
 
 Público-alvo: pessoas que querem contratar serviços de eventos e festas.
 
-Fase de Análise
+2. Fase de Análise
 a) Requisitos Funcionais
 
 RF01: O sistema deve listar todos os eventos cadastrados (Festa Infantil, Evento Corporativo, Casamento);
@@ -60,14 +61,14 @@ f) Documentação dos Casos de Uso
 
 g) Diagrama de Classes – Modelo Conceitual
 
-Fase de Projeto
+3. Fase de Projeto
 a) Diagrama de Classes
 
 b) Segundo Diagrama UML (à escolha)
 
-Considerações Finais
+5. Considerações Finais
 
-Referências
+6. Referências
 
 Seção de Conclusão / Aprendizado:
 
