@@ -5,7 +5,7 @@ Nome: Bianca Banaletti
 Tema: Sistema de Organização de Eventos e Festas
 
 1. Descrição e Delimitação do Escopo
----Sistema que gerencia diferentes tipos de eventos e festas: festa infantil, evento corporativo e casamento.
+*Sistema que gerencia diferentes tipos de eventos e festas: festa infantil, evento corporativo e casamento.
 ---Utilizado para organização e controle, como a parte de decoração e fornecedores.
 ---Público-alvo: pessoas que querem contratar serviços de eventos e festas.
 
