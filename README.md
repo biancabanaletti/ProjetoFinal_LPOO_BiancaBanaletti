@@ -29,7 +29,7 @@ ConvidadoDAO: Responsável pela persistência dos convidados no banco de dados. 
 
 FornecedorDAO: Responsável pela persistência dos fornecedores no banco de dados PostgreSQL. Gerencia operações de cadastro, consulta, atualização e exclusão de fornecedores.
 
-/database - lpoo_projeto_biancabanaletti
+/database - lpoo_projeto_biancabanaletti.sql
 
 Arquivo responsável pela criação das tabelas do banco de dados PostgreSQL. Define as tabelas de eventos, convidados, fornecedores e tarefas, além de inserir dados iniciais de teste e relacionamentos entre entidades.
 
@@ -62,17 +62,44 @@ Main: Arquivo principal do sistema. É usado para executar o programa e demonstr
 
 • Instruções de execução.
 
-Certificar que todos os arquivos.py estão na pasta
+#Banco de Dados
+lpoo_projeto_biancabanaletti.sql
 
-Abra o terminal na pasta do projeto (main.py)
+O PostgreSQL foi utilizado como sistema gerenciador de banco de dados do projeto, sendo responsável pelo armazenamento persistente das informações do sistema de organização de eventos.
+
+No arquivo SQL, foram executadas as seguintes etapas:
+
+1. Remoção das tabelas existentes utilizando drop table if exists, permitindo recriar o banco sem conflitos durante os testes do sistema.
+
+2. Criação das tabelas principais do sistema:
+tb_eventos
+tb_convidados
+tb_fornecedores
+tb_tarefas
+
+3. Definição das chaves primárias (primary key) e relacionamentos entre tabelas utilizando foreign key, permitindo associar convidados, fornecedores e tarefas a um evento específico.
+
+4. Definição dos tipos de dados adequados para cada atributo, como:
+varchar
+date
+boolean
+numeric
+
+5. Inserção de dados de teste utilizando comandos insert into, permitindo validar o funcionamento do sistema e testar consultas.
+
+6. Realização de consultas utilizando select * from, utilizadas para verificar os dados cadastrados nas tabelas.
+
+No VSCode:
+
+Certificar que todos os arquivos.py estão na pasta.
+
+Abra o terminal na pasta do projeto (main.py).
 
 Execute: phyton main.py
 
-A saída mostrará: Criação dos eventos, Adição de convidados, fornecedores e tarefas, Ordenação das tarefas com diferentes estratégias, Saída formatada e organizada.
+A saída mostrará: Criação dos eventos, Adição de convidados, fornecedores e tarefas, Ordenação das tarefas com diferentes estratégias, Saída formatada e organizada. #att saida
 
 
 • Diagrama de classes (imagem) — gerado pelo próprio aluno. 
 • Link para o arquivo Documentação do Projeto.md (artefatos APS, quando aplicável).  
 • Declaração de uso de IA (se houver) — ferramenta/modelo utilizado e em quais partes.
-
-Documentação do Projeto.md
