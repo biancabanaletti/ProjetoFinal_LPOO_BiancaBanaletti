@@ -35,11 +35,11 @@ Arquivo responsável pela criação das tabelas do banco de dados PostgreSQL. De
 
 /model - 
 
-Convidados: Representa uma pessoa convidada para o evento. Armazena o nome do convidado; Controla a presença confirmada (True/False); Permite confirmar presença; Define uma saída organizada quando impresso (repr).
+Convidado: Representa uma pessoa convidada para o evento. Armazena o nome do convidado; Controla a presença confirmada (True/False); Permite confirmar presença; Define uma saída organizada quando impresso (repr).
 
 Decoracao: Representa a decoração do evento. Armazena: tema da decoração, cor principal e orçamento estimado. Permite atualizar o orçamento e definir uma saída organizada com resumo das informações.
 
-Evento: É a classe principal dos eventos. Armazena: nome do evento, data, local, lista de convidados, lista de tarefas e lista de fornecedores. Possui métodos para: adicionar convidados, confirmar presença, adicionar tarefas e adicionar fornecedores.
+Evento: É a classe principal dos eventos. Armazena: nome do evento, data, local, status do evento, lista de convidados, lista de tarefas e lista de fornecedores. Possui métodos para: adicionar e remover convidados, confirmar presença, adicionar e remover tarefas, adicionar e remover fornecedores, listar convidados confirmados, ordenar tarefas e finalizar/cancelar eventos.
 
 Factory: Implementa o Factory no projeto. Cria eventos de: casamento, festa infantil e corporativo.
 
@@ -54,6 +54,8 @@ Tarefa: Representa uma tarefa que deve ser realizada no evento. Descrição da t
 TipoEvento: Implementa um Enum para representar os tipos de eventos do sistema. Define categorias padronizadas como: casamento, festa infantil, evento corporativo, formatura e aniversário.
 
 Usuario: Representa os usuários do sistema. Armazena: login e senha do usuário. Permite alterar senha e realizar validações básicas de acesso.
+
+/view -
 
 Main: Arquivo principal do sistema. É usado para executar o programa e demonstrar as funcionalidades.
 
