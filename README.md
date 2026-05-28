@@ -33,17 +33,27 @@ FornecedorDAO: Responsável pela persistência dos fornecedores no banco de dado
 
 Arquivo responsável pela criação das tabelas do banco de dados PostgreSQL. Define as tabelas de eventos, convidados, fornecedores e tarefas, além de inserir dados iniciais de teste e relacionamentos entre entidades.
 
+/model - 
+
 Convidados: Representa uma pessoa convidada para o evento. Armazena o nome do convidado; Controla a presença confirmada (True/False); Permite confirmar presença; Define uma saída organizada quando impresso (repr).
 
-Tarefa: Representa uma tarefa que deve ser realizada no evento. Descrição da tarefa; Responsável pela tarefa; Status de conclusão (True/False).
-
-Fornecedor: Representa empresas ou prestadores contratados para o evento. Armazena: nome do fornecedor, tipo de serviço (buffet, decoração, etc) e custo estimado do serviço.
+Decoracao: Representa a decoração do evento. Armazena: tema da decoração, cor principal e orçamento estimado. Permite atualizar o orçamento e definir uma saída organizada com resumo das informações.
 
 Evento: É a classe principal dos eventos. Armazena: nome do evento, data, local, lista de convidados, lista de tarefas e lista de fornecedores. Possui métodos para: adicionar convidados, confirmar presença, adicionar tarefas e adicionar fornecedores.
 
 Factory: Implementa o Factory no projeto. Cria eventos de: casamento, festa infantil e corporativo.
 
+Fornecedor: Representa empresas ou prestadores contratados para o evento. Armazena: nome do fornecedor, tipo de serviço (buffet, decoração, etc) e custo estimado do serviço.
+
+Pagamento: Representa os pagamentos relacionados ao evento. Armazena: valor, forma de pagamento e status do pagamento. Permite confirmar ou cancelar pagamentos.
+
 Strategy: Define ordenação para listas de tarefas. Ordenar por: descrição, responsável e status.
+
+Tarefa: Representa uma tarefa que deve ser realizada no evento. Descrição da tarefa; Responsável pela tarefa; Status de conclusão (True/False).
+
+TipoEvento: Implementa um Enum para representar os tipos de eventos do sistema. Define categorias padronizadas como: casamento, festa infantil, evento corporativo, formatura e aniversário.
+
+Usuario: Representa os usuários do sistema. Armazena: login e senha do usuário. Permite alterar senha e realizar validações básicas de acesso.
 
 Main: Arquivo principal do sistema. É usado para executar o programa e demonstrar as funcionalidades.
 
