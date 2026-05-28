@@ -21,6 +21,8 @@ FornecedorController: Responsável pelo gerenciamento dos fornecedores do sistem
 
 /dao - 
 
+Conexao: Responsável por estabelecer conexão com o banco de dados PostgreSQL utilizado pelo sistema.
+
 EventoDAO: Responsável pelas operações de persistência dos eventos no banco de dados PostgreSQL. Implementa operações de CRUD: inserir, listar, atualizar e excluir eventos.
 
 ConvidadoDAO: Responsável pela persistência dos convidados no banco de dados. Realiza cadastro, listagem, atualização e remoção de convidados.
