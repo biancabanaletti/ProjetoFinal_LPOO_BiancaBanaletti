@@ -19,7 +19,7 @@ EventoController: Responsável pelo controle das operações relacionadas aos ev
 
 FornecedorController: Responsável pelo gerenciamento dos fornecedores do sistema. Realiza a comunicação entre a interface gráfica, o model Fornecedor e o FornecedorDAO. Permite cadastrar fornecedores, listar fornecedores, atualizar dados e remover fornecedores.
 
-/dao - 
+/dao - Camada responsável pela comunicação com o banco de dados PostgreSQL. Realiza operações de persistência, como cadastro, consulta, atualização e exclusão de informações no banco. Os arquivos DAO utilizam a conexão criada em Conexao.py para executar comandos SQL.
 
 Conexao: Responsável por estabelecer conexão com o banco de dados PostgreSQL utilizado pelo sistema.
 
@@ -33,7 +33,7 @@ FornecedorDAO: Responsável pela persistência dos fornecedores no banco de dado
 
 Arquivo responsável pela criação das tabelas do banco de dados PostgreSQL. Define as tabelas de eventos, convidados, fornecedores e tarefas, além de inserir dados iniciais de teste e relacionamentos entre entidades.
 
-/model - 
+/model - Camada responsável pela lógica e estrutura dos dados do sistema. Contém as classes principais da aplicação, como Evento, Convidado, Fornecedor, Tarefa, Pagamento e Decoracao. Também implementa regras de negócio e padrões de projeto utilizados no sistema, como Factory e Strategy.
 
 Convidado: Representa uma pessoa convidada para o evento. Armazena o nome do convidado; Controla a presença confirmada (True/False); Permite confirmar presença; Define uma saída organizada quando impresso (repr).
 
@@ -55,9 +55,21 @@ TipoEvento: Implementa um Enum para representar os tipos de eventos do sistema. 
 
 Usuario: Representa os usuários do sistema. Armazena: login e senha do usuário. Permite alterar senha e realizar validações básicas de acesso.
 
-/view -
+/view - Camada responsável pela interface gráfica do sistema utilizando Tkinter. Contém as telas da aplicação, permitindo a interação do usuário com o sistema através de janelas, botões, campos de texto e menus.
 
-Main: Arquivo principal do sistema. É usado para executar o programa e demonstrar as funcionalidades.
+TelaEvento: Responsável pela interface principal do sistema utilizando Tkinter. Permite acessar as funcionalidades relacionadas aos eventos, como cadastro, visualização e gerenciamento. Também possui botões para abrir as telas de convidados, fornecedores e informações do sistema.
+
+TelaConvidado: Responsável pela interface gráfica de gerenciamento dos convidados do evento. Permite visualizar informações dos convidados e controlar funcionalidades relacionadas à confirmação de presença.
+
+TelaFornecedor: Responsável pela interface gráfica de gerenciamento dos fornecedores contratados para o evento. Permite visualizar e organizar informações como nome do fornecedor, serviço prestado e valores.
+
+TelaSobre: Tela informativa do sistema. Exibe informações sobre o projeto, disciplina, objetivo do sistema e identificação da aluna responsável pelo desenvolvimento.
+
+/Run
+
+Janela.py: Arquivo responsável por iniciar a interface gráfica do sistema. Executa a janela principal da aplicação e realiza a abertura da TelaEvento, funcionando como ponto inicial do programa utilizando Tkinter.
+
+Main: Arquivo principal do sistema. É usado para executar o programa e demonstrar as funcionalidades aplicadas.
 
 
 • Instruções de execução.
