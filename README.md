@@ -19,6 +19,14 @@ EventoController: Responsável pelo controle das operações relacionadas aos ev
 
 FornecedorController: Responsável pelo gerenciamento dos fornecedores do sistema. Realiza a comunicação entre a interface gráfica, o model Fornecedor e o FornecedorDAO. Permite cadastrar fornecedores, listar fornecedores, atualizar dados e remover fornecedores.
 
+/dao - 
+
+EventoDAO: Responsável pelas operações de persistência dos eventos no banco de dados PostgreSQL. Implementa operações de CRUD: inserir, listar, atualizar e excluir eventos.
+
+ConvidadoDAO: Responsável pela persistência dos convidados no banco de dados. Realiza cadastro, listagem, atualização e remoção de convidados.
+
+FornecedorDAO: Responsável pela persistência dos fornecedores no banco de dados PostgreSQL. Gerencia operações de cadastro, consulta, atualização e exclusão de fornecedores.
+
 Convidados: Representa uma pessoa convidada para o evento. Armazena o nome do convidado; Controla a presença confirmada (True/False); Permite confirmar presença; Define uma saída organizada quando impresso (repr).
 
 Tarefa: Representa uma tarefa que deve ser realizada no evento. Descrição da tarefa; Responsável pela tarefa; Status de conclusão (True/False).
