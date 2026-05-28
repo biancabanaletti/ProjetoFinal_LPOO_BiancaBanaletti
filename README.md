@@ -11,6 +11,14 @@ Permite gerenciar e organizar diferentes tipos de eventos e festas, incluindo: C
 
 Descrição de cada classe:
 
+/controller - Responsável por intermediar a comunicação entre a interface gráfica, os models e os DAOs. Controla as regras de negócio e coordena as operações do sistema.
+
+ConvidadoController: Responsável por controlar as operações relacionadas aos convidados do sistema. Intermedia a comunicação entre a interface gráfica, o model Convidado e o ConvidadoDAO. Permite cadastrar convidados, listar convidados, confirmar presença e remover convidados.
+
+EventoController: Responsável pelo controle das operações relacionadas aos eventos. Faz a ligação entre a interface gráfica, o model Evento e o EventoDAO. Permite criar eventos, listar eventos, atualizar informações, excluir eventos e controlar funcionalidades relacionadas aos convidados, fornecedores e tarefas do evento.
+
+FornecedorController: Responsável pelo gerenciamento dos fornecedores do sistema. Realiza a comunicação entre a interface gráfica, o model Fornecedor e o FornecedorDAO. Permite cadastrar fornecedores, listar fornecedores, atualizar dados e remover fornecedores.
+
 Convidados: Representa uma pessoa convidada para o evento. Armazena o nome do convidado; Controla a presença confirmada (True/False); Permite confirmar presença; Define uma saída organizada quando impresso (repr).
 
 Tarefa: Representa uma tarefa que deve ser realizada no evento. Descrição da tarefa; Responsável pela tarefa; Status de conclusão (True/False).
@@ -30,9 +38,9 @@ Main: Arquivo principal do sistema. É usado para executar o programa e demonstr
 
 Certificar que todos os arquivos.py estão na pasta
 
-Abra o terminal na pasta do projeto (Main.py)
+Abra o terminal na pasta do projeto (main.py)
 
-Execute: phyton Main.py
+Execute: phyton main.py
 
 A saída mostrará: Criação dos eventos, Adição de convidados, fornecedores e tarefas, Ordenação das tarefas com diferentes estratégias, Saída formatada e organizada.
 
