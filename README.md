@@ -27,6 +27,10 @@ ConvidadoDAO: Responsável pela persistência dos convidados no banco de dados. 
 
 FornecedorDAO: Responsável pela persistência dos fornecedores no banco de dados PostgreSQL. Gerencia operações de cadastro, consulta, atualização e exclusão de fornecedores.
 
+/database - lpoo_projeto_biancabanaletti
+
+Arquivo responsável pela criação das tabelas do banco de dados PostgreSQL. Define as tabelas de eventos, convidados, fornecedores e tarefas, além de inserir dados iniciais de teste e relacionamentos entre entidades.
+
 Convidados: Representa uma pessoa convidada para o evento. Armazena o nome do convidado; Controla a presença confirmada (True/False); Permite confirmar presença; Define uma saída organizada quando impresso (repr).
 
 Tarefa: Representa uma tarefa que deve ser realizada no evento. Descrição da tarefa; Responsável pela tarefa; Status de conclusão (True/False).
