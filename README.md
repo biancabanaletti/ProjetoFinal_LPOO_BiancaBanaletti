@@ -75,8 +75,27 @@ Tela de Início:
 
 Evento cadastrado:
 
-<img width="376" height="145" alt="image" src="https://github.com/user-attachments/assets/8b460a9c-16f6-4605-9c28-a809461d75a6" />
+<img width="381" height="144" alt="image" src="https://github.com/user-attachments/assets/b301d1ff-9e84-4986-a077-d3fe93ed8fce" />
 
+Tela de Convidados:
+
+<img width="395" height="323" alt="image" src="https://github.com/user-attachments/assets/35bfb421-7828-47f4-9206-0507b4fd9abb" />
+
+Convidado cadastrado:
+
+<img width="311" height="144" alt="image" src="https://github.com/user-attachments/assets/169d691b-86f7-4463-bd43-10f373704ba2" />
+
+Tela de Fornecedores:
+
+<img width="444" height="426" alt="image" src="https://github.com/user-attachments/assets/4c568bc9-72e1-4ebf-a0bf-00701c74ebe3" />
+
+Fornecedor cadastrado:
+
+<img width="204" height="178" alt="image" src="https://github.com/user-attachments/assets/c89effc7-5069-4f24-9f0b-d9c2b596b398" />
+
+Tela Sobre:
+
+<img width="343" height="275" alt="image" src="https://github.com/user-attachments/assets/2a0fabe2-b238-4d36-a1f7-0f412e3bd9c4" />
 
 
 Main: Arquivo principal do sistema. É usado para executar o programa e demonstrar as funcionalidades aplicadas.
