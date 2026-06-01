@@ -69,6 +69,16 @@ TelaSobre: Tela informativa do sistema. Exibe informações sobre o projeto, dis
 
 Janela.py: Arquivo responsável por iniciar a interface gráfica do sistema. Executa a janela principal da aplicação e realiza a abertura da TelaEvento, funcionando como ponto inicial do programa utilizando Tkinter.
 
+Tela de Início:
+
+<img width="493" height="443" alt="image" src="https://github.com/user-attachments/assets/3503cb93-7043-41b6-acbd-12e58fa22166" />
+
+Evento cadastrado:
+
+<img width="376" height="145" alt="image" src="https://github.com/user-attachments/assets/8b460a9c-16f6-4605-9c28-a809461d75a6" />
+
+
+
 Main: Arquivo principal do sistema. É usado para executar o programa e demonstrar as funcionalidades aplicadas.
 
 
