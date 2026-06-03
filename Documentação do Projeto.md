@@ -55,6 +55,8 @@ RN02: Todo evento deve possuir nome, data e local obrigatoriamente.
 
 d) Documento de Requisitos
 
+Documento de Denifição de Requisitos.pdf
+
 e) Diagrama de Casos de Uso
 
 f) Documentação dos Casos de Uso
