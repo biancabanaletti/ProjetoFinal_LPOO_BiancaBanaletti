@@ -59,6 +59,9 @@ Documento de Denifição de Requisitos.pdf
 
 e) Diagrama de Casos de Uso
 
+<img width="682" height="501" alt="image" src="https://github.com/user-attachments/assets/d925e4ac-a151-4236-a887-cf62c19e01ed" />
+
+
 f) Documentação dos Casos de Uso
 
 g) Diagrama de Classes – Modelo Conceitual
