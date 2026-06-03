@@ -59,7 +59,8 @@ Documento de Denifição de Requisitos.pdf
 
 e) Diagrama de Casos de Uso
 
-<img width="682" height="501" alt="image" src="https://github.com/user-attachments/assets/d925e4ac-a151-4236-a887-cf62c19e01ed" />
+<img width="684" height="506" alt="image" src="https://github.com/user-attachments/assets/9b2df9ba-969f-4154-98db-9ea6ff29fef1" />
+
 
 
 f) Documentação dos Casos de Uso
