@@ -31,19 +31,19 @@ RF07: O sistema atualiza a data e o local do evento;
 
 RF08: O sistema deve permitir cadastrar novos eventos com informações como nome, data, local e tipo do evento;
 
-RF09: O sistema deve gerar relatórios com a quantidade de convidados confirmados;
+RF09: O sistema deve permitir consultar a quantidade de convidados confirmados para cada evento;
 
-RF10: O sistema deve permitir consultar os fornecedores disponíveis para cada tipo de evento;
+RF10: O sistema deve permitir consultar os fornecedores cadastrados em cada evento.
 
 b) Requisitos Não Funcionais
 
-RNF01: O sistema deve exigir login e senha para acesso administrativo;
+RNF01: O sistema deve possuir interface gráfica desenvolvida utilizando a biblioteca Tkinter.
 
 RNF02: O sistema deve possuir interface gráfica simples e de fácil utilização;
 
 RNF03: O sistema deve armazenar os dados de forma persistente em banco de dados ou arquivos;
 
-RNF04: O sistema deve permitir atualização das informações em tempo real, sem necessidade de reiniciar o sistema;
+RNF04: As alterações realizadas devem ser refletidas imediatamente na interface do sistema.
 
 RNF05: O sistema deve garantir a integridade e segurança dos dados cadastrados;
 
@@ -51,7 +51,7 @@ c) Regras de Negócio
 
 RN01: Um convidado não pode confirmar presença mais de uma vez para o mesmo evento;
 
-RN02: Um fornecedor não pode ser vinculado a dois eventos no mesmo horário;
+RN02: Todo evento deve possuir nome, data e local obrigatoriamente.
 
 d) Documento de Requisitos
 
