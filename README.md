@@ -156,6 +156,9 @@ A tela principal permite o cadastro de eventos por meio do preenchimento do nome
 
 <img width="1976" height="603" alt="Diagrama de Classes" src="https://github.com/user-attachments/assets/dd40bfb9-4d9c-4c58-8ad9-f6503b68d3a8" />
 
+<img width="1479" height="449" alt="image" src="https://github.com/user-attachments/assets/5523f08c-fa5a-4c3c-b5a5-a4275f1dbe48" />
+
+
 
 • Declaração de uso de IA:
 
