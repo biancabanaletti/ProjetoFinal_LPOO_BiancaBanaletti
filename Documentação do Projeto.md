@@ -65,6 +65,8 @@ e) Diagrama de Casos de Uso
 
 f) Documentação dos Casos de Uso
 
+Documentação do Caso de Uso.pdf
+
 g) Diagrama de Classes – Modelo Conceitual
 
 3. Fase de Projeto
