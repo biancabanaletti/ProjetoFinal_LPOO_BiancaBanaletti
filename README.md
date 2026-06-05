@@ -154,7 +154,8 @@ A tela principal permite o cadastro de eventos por meio do preenchimento do nome
 
 • Diagrama de classes (imagem)
 
-<img width="1479" height="449" alt="image" src="https://github.com/user-attachments/assets/5523f08c-fa5a-4c3c-b5a5-a4275f1dbe48" />
+<img width="1520" height="475" alt="image" src="https://github.com/user-attachments/assets/49f78c26-2b89-41b5-8045-0b7956808503" />
+
 
 
 
