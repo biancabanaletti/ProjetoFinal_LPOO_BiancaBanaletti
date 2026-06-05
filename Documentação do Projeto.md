@@ -69,6 +69,9 @@ Documentação do Caso de Uso.pdf
 
 g) Diagrama de Classes – Modelo Conceitual
 
+<img width="523" height="373" alt="image" src="https://github.com/user-attachments/assets/4c22eb80-678d-4c3d-b996-6c151d33acfd" />
+
+
 3. Fase de Projeto
 a) Diagrama de Classes
 
