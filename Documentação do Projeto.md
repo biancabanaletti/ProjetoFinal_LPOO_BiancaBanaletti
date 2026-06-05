@@ -55,7 +55,7 @@ RN02: Todo evento deve possuir nome, data e local obrigatoriamente.
 
 d) Documento de Requisitos
 
-Documento de Denifição de Requisitos.pdf
+[Documento de Definição de Requisitos.pdf](https://github.com/user-attachments/files/28656694/Documento.de.Definicao.de.Requisitos.pdf)
 
 e) Diagrama de Casos de Uso
 
@@ -65,7 +65,8 @@ e) Diagrama de Casos de Uso
 
 f) Documentação dos Casos de Uso
 
-Documentação do Caso de Uso.pdf
+[Documentação do Caso de Uso.pdf](https://github.com/user-attachments/files/28656693/Documentacao.do.Caso.de.Uso.pdf)
+
 
 g) Diagrama de Classes – Modelo Conceitual
 
