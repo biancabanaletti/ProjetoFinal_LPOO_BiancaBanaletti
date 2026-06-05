@@ -138,9 +138,22 @@ Abra o terminal na pasta do projeto (main.py).
 
 Execute: phyton main.py
 
-A saída mostrará: Criação dos eventos, Adição de convidados, fornecedores e tarefas, Ordenação das tarefas com diferentes estratégias, Saída formatada e organizada. #att saida
+Ao executar o arquivo main.py, o sistema realiza uma demonstração das funcionalidades implementadas utilizando os padrões de projeto Factory e Strategy. O padrão Factory é utilizado para criar diferentes tipos de eventos (casamento, festa infantil e evento corporativo) por meio da classe EventoFactory, centralizando e simplificando o processo de criação dos objetos.
 
+Após a criação dos eventos, são adicionados convidados, fornecedores e tarefas, além da confirmação de presença de alguns convidados. Também é demonstrada a alteração do status de tarefas concluídas e a utilização do padrão Strategy para ordenar as tarefas de diferentes formas, como por descrição, responsável e status.
+
+Ao final da execução, o sistema exibe no terminal um resumo completo de cada evento, apresentando suas informações, convidados, fornecedores e tarefas organizadas conforme a estratégia de ordenação aplicada.
+
+Abra o terminal na pasta do projeto (janela.py).
+
+Execute: python janela.py ou apenas run python file.
+
+O arquivo janela.py é responsável por iniciar a interface gráfica do sistema. Ao ser executado, ele abre a tela principal de gerenciamento de eventos (TelaEvento), desenvolvida com a biblioteca Tkinter.
+
+A tela principal permite o cadastro de eventos por meio do preenchimento do nome do evento e do local de realização. Também possui uma barra de menus com opções para gerenciamento de convidados, fornecedores e acesso à tela de informações do sistema ("Sobre"). O sistema realiza validação dos campos obrigatórios e apresenta mensagens de aviso ou confirmação para o usuário através de caixas de diálogo.
 
 • Diagrama de classes (imagem) — gerado pelo próprio aluno. 
-• Link para o arquivo Documentação do Projeto.md (artefatos APS, quando aplicável).  
-• Declaração de uso de IA (se houver) — ferramenta/modelo utilizado e em quais partes.
+
+• Declaração de uso de IA:
+
+Foi utilizada a ferramenta ChatGPT (OpenAI GPT-5.5) como apoio para esclarecimento de dúvidas, correção de erros, explicação de conceitos e auxílio na revisão de trechos de código. Todo o desenvolvimento, adaptação e validação final da solução foram realizados pela autora do trabalho.
