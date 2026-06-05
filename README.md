@@ -146,7 +146,7 @@ Ao final da execução, o sistema exibe no terminal um resumo completo de cada e
 
 Abra o terminal na pasta do projeto (janela.py).
 
-Execute: python janela.py ou apenas run python file.
+Execute: python janela.py (ou apenas run python file).
 
 O arquivo janela.py é responsável por iniciar a interface gráfica do sistema. Ao ser executado, ele abre a tela principal de gerenciamento de eventos (TelaEvento), desenvolvida com a biblioteca Tkinter.
 
