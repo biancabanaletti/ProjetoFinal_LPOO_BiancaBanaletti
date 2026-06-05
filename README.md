@@ -152,7 +152,10 @@ O arquivo janela.py é responsável por iniciar a interface gráfica do sistema.
 
 A tela principal permite o cadastro de eventos por meio do preenchimento do nome do evento e do local de realização. Também possui uma barra de menus com opções para gerenciamento de convidados, fornecedores e acesso à tela de informações do sistema ("Sobre"). O sistema realiza validação dos campos obrigatórios e apresenta mensagens de aviso ou confirmação para o usuário através de caixas de diálogo.
 
-• Diagrama de classes (imagem) — gerado pelo próprio aluno. 
+• Diagrama de classes (imagem)
+
+<img width="1976" height="603" alt="Diagrama de Classes" src="https://github.com/user-attachments/assets/dd40bfb9-4d9c-4c58-8ad9-f6503b68d3a8" />
+
 
 • Declaração de uso de IA:
 
