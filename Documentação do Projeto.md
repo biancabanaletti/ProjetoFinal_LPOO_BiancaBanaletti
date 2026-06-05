@@ -75,6 +75,9 @@ g) Diagrama de Classes – Modelo Conceitual
 3. Fase de Projeto
 a) Diagrama de Classes
 
+[Diagrama de Classes.pdf](https://github.com/user-attachments/files/28656689/Diagrama.de.Classes.pdf)
+
+
 b) Segundo Diagrama UML (à escolha)
 
 5. Considerações Finais
