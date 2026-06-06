@@ -79,7 +79,10 @@ a) Diagrama de Classes
 [Diagrama de Classes.pdf](https://github.com/user-attachments/files/28656689/Diagrama.de.Classes.pdf)
 
 
-b) Segundo Diagrama UML (à escolha)
+b) Segundo Diagrama UML - Diagrama de Sequência
+
+<img width="1215" height="556" alt="image" src="https://github.com/user-attachments/assets/322bd6d7-e8a8-4e0a-a316-6c3193732748" />
+
 
 5. Considerações Finais
 
