@@ -97,8 +97,6 @@ Possíveis melhorias futuras: o sistema poderá receber novas funcionalidades, c
 
 Ferramentas utilizadas para construção dos diagramas: Astah e PlantUML.
 
-Seção de Conclusão / Aprendizado:
-
 • Declaração de uso de IA:
 
 Foi utilizada a ferramenta ChatGPT (OpenAI GPT-5.5) como apoio para esclarecimento de dúvidas, correção de erros, explicação de conceitos e auxílio na revisão de trechos de código. Todo o desenvolvimento, adaptação e validação final da solução foram realizados pela autora do trabalho.
