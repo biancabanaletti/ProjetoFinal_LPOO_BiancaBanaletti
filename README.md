@@ -130,7 +130,7 @@ numeric
 
 6. Realização de consultas utilizando select * from, utilizadas para verificar os dados cadastrados nas tabelas.
 
-No VSCode:
+• No VSCode:
 
 Certificar que todos os arquivos.py estão na pasta.
 
@@ -157,9 +157,10 @@ A tela principal permite o cadastro de eventos por meio do preenchimento do nome
 <img width="1520" height="475" alt="image" src="https://github.com/user-attachments/assets/49f78c26-2b89-41b5-8045-0b7956808503" />
 
 
-Seção de Conclusão / Aprendizado:
+• Seção de Conclusão / Aprendizado:
 
 Principais desafios encontrados: Os principais desafios foram modelar o sistema utilizando Linguagem de Programação Orientada a Objetos, integrar a interface gráfica com o banco de dados e aplicar corretamente os padrões de projeto exigidos. Também foi necessário realizar testes e ajustes para garantir o funcionamento adequado das funcionalidades desenvolvidas.
+
 Aprendizados obtidos: o desenvolvimento do projeto permitiu compreender de forma prática a relação entre as etapas de análise, projeto e implementação de software. A elaboração dos diagramas UML auxiliou na modelagem do sistema antes da codificação, tornando a implementação mais organizada.
 
 • Declaração de uso de IA:
