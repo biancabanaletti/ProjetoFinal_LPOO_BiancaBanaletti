@@ -85,7 +85,7 @@ b) Segundo Diagrama UML - Diagrama de Sequência
 <img width="1215" height="556" alt="image" src="https://github.com/user-attachments/assets/322bd6d7-e8a8-4e0a-a316-6c3193732748" />
 
 
-5. Considerações Finais
+4. Considerações Finais
 
 Principais desafios encontrados: Os principais desafios foram modelar o sistema utilizando Linguagem de Programação Orientada a Objetos, integrar a interface gráfica com o banco de dados e aplicar corretamente os padrões de projeto exigidos. Também foi necessário realizar testes e ajustes para garantir o funcionamento adequado das funcionalidades desenvolvidas.
 
@@ -93,7 +93,7 @@ Aprendizados obtidos: o desenvolvimento do projeto permitiu compreender de forma
 
 Possíveis melhorias futuras: o sistema poderá receber novas funcionalidades, como autenticação de usuários, gerenciamento completo de tarefas pela interface gráfica, geração de relatórios em PDF, pesquisa e filtragem de eventos, edição e exclusão de registros diretamente pelas telas e integração mais completa com o banco de dados.
 
-6. Referências
+5. Referências
 
 Ferramentas utilizadas para construção dos diagramas: Astah e PlantUML.
 
