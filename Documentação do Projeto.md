@@ -59,9 +59,7 @@ d) Documento de Requisitos
 
 e) Diagrama de Casos de Uso
 
-<img width="684" height="506" alt="image" src="https://github.com/user-attachments/assets/9b2df9ba-969f-4154-98db-9ea6ff29fef1" />
-
-
+<img width="687" height="506" alt="image" src="https://github.com/user-attachments/assets/56c8ea61-e1b5-4eee-b6f0-8cbfcfc6ac9c" />
 
 f) Documentação dos Casos de Uso
 
