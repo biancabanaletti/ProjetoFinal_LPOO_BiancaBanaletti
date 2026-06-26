@@ -76,7 +76,7 @@ Tela de Início:
 
 Evento cadastrado:
 
-<img width="892" height="694" alt="image" src="https://github.com/user-attachments/assets/737ce028-ff82-492d-8859-8acf915c3e1c" />
+<img width="892" height="687" alt="image" src="https://github.com/user-attachments/assets/d15f1545-9071-4f62-beb6-7b1c310654b1" />
 
 
 Tela de Convidados:
