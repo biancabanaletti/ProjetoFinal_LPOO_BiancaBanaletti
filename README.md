@@ -71,31 +71,37 @@ Janela.py: Arquivo responsável por iniciar a interface gráfica do sistema. Exe
 
 Tela de Início:
 
-<img width="493" height="443" alt="image" src="https://github.com/user-attachments/assets/3503cb93-7043-41b6-acbd-12e58fa22166" />
+<img width="892" height="693" alt="image" src="https://github.com/user-attachments/assets/c7f31cf8-9ab7-4e44-80aa-7e89da52dd9d" />
+
 
 Evento cadastrado:
 
-<img width="381" height="144" alt="image" src="https://github.com/user-attachments/assets/b301d1ff-9e84-4986-a077-d3fe93ed8fce" />
+<img width="892" height="694" alt="image" src="https://github.com/user-attachments/assets/737ce028-ff82-492d-8859-8acf915c3e1c" />
+
 
 Tela de Convidados:
 
-<img width="395" height="323" alt="image" src="https://github.com/user-attachments/assets/35bfb421-7828-47f4-9206-0507b4fd9abb" />
+<img width="844" height="623" alt="image" src="https://github.com/user-attachments/assets/339996b2-f4cf-497c-9b4c-a2d5a2b28ea2" />
 
 Convidado cadastrado:
 
-<img width="311" height="144" alt="image" src="https://github.com/user-attachments/assets/169d691b-86f7-4463-bd43-10f373704ba2" />
+<img width="840" height="621" alt="image" src="https://github.com/user-attachments/assets/a6c9fb2f-da69-4e9c-99c2-5f5ac5347a12" />
+
 
 Tela de Fornecedores:
 
-<img width="444" height="426" alt="image" src="https://github.com/user-attachments/assets/4c568bc9-72e1-4ebf-a0bf-00701c74ebe3" />
+<img width="891" height="641" alt="image" src="https://github.com/user-attachments/assets/e7dfb3da-fbbd-458e-ae23-329b197fa849" />
+
 
 Fornecedor cadastrado:
 
-<img width="204" height="178" alt="image" src="https://github.com/user-attachments/assets/c89effc7-5069-4f24-9f0b-d9c2b596b398" />
+<img width="894" height="641" alt="image" src="https://github.com/user-attachments/assets/0fd1e71d-0ca0-4bfe-a15f-87d2d869a377" />
+
 
 Tela Sobre:
 
-<img width="343" height="275" alt="image" src="https://github.com/user-attachments/assets/2a0fabe2-b238-4d36-a1f7-0f412e3bd9c4" />
+<img width="791" height="522" alt="image" src="https://github.com/user-attachments/assets/2e35b10a-752b-4e7c-a5bb-b4fc33ca8aba" />
+
 
 
 Main: Arquivo principal do sistema. É usado para executar o programa e demonstrar as funcionalidades aplicadas.
